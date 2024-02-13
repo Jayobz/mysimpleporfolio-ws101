@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience Page</title>
+    
+</head>
+<style>
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("white.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+
+ 
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  background-image: url('white.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.experience {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.a{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #dddbdb;
+    overflow-y: auto;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+   
+}
+
+nav ul li a:hover{
+    color: rgb(77, 177, 20);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    animation: slideInFromRight 2s ease;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+.experience h2 {
+    margin-top: 0;
+    color: #333;
+    
+}
+
+.experience p {
+    color: #666;
+    
+}
+.educ{
+    font-size: small;
+    animation: slideInFromLeft 2s ease;
+}
+.main-content{
+    margin: 8%;
+    margin-top: 2%;
+}
+
+.detail h2{
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 20px;
+    
+}
+
+
+.main-content{
+    color: #555;
+    line-height: 22px;
+}
+.main-content h2{
+    color: #2c2a2a;
+}
+
+
+.educ{
+    font-size: small;
+    animation: slideInFromLeft 2s ease;
+}
+.Ed{
+    animation: slideInFromLeft 2s ease;
+}
+.exp{
+    animation: slideInFromRight 2s ease;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+</style>
+<body>
+    
+        <nav>
+            <img src="logo.jpg" class="logo">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact1.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+    <section class="main-content">
+        <h2 class="Ed">My Educational Background</h2>
+    </br>
+        <p class="educ">My high school diploma and some time in college, where I
+             <br>studied business management. I completed three terms of higher
+            <br>education, and in that time, I honed my communication and time management
+             <br>  skills in classes such as marketing and English.</p>
+            </br>
+        <h2 class="exp">My Experience</h2>
+    </br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Company</th>
+                    <th>Duration</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cyber Security Specialist</td>
+                    <td>obedencio Company</td>
+                    <td>Jan 2020 - Present</td>
+                    <td>A Cyber Security Specialist is an expert in the field of information technology security.
+                        <br> job entails providing protection during software development. They work to make sure that
+                       <br> networks are safe from external threats like hackers or crackers who want access for malicious purposes.</td>
+                </tr>
+                <thead>
+                    <tr>
+                        <td>Soft Engineer</td>
+                        <td>jayobz </td>
+                        <td>2019</td>
+                        <td>Description ofA Software Engineer is an IT professional who designs, develops and
+                            <br> maintains computer software at a company. They use their creativity and technical skills and apply the 
+                            <br> principles of software engineering to help solve new and ongoing problems for an organization.</td>
+                    </tr>
+                </thead>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
